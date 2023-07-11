@@ -25,7 +25,7 @@
 
 /* header related styles */
 .header {
-    width: 1336px;
+    /* width: 1336px; */
     height: 600px;
     background: rgba(229, 84, 115, 0.10);
 }
@@ -63,6 +63,9 @@
 
 /* main related styles */
 /* first section related styles */
+.features{
+    padding: 0 200px;
+}
 .title {
     color: #272727;
     text-align: center;
@@ -128,12 +131,15 @@
 }
 
 /* second section styles */
-.wish {
-    width: 1000px;
+.wish{
+    padding: 0 200px;
+}
+.wish >div{
+    /* width: 1000px; */
     height: 200px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-left: 170px;
+    /* margin-left: 170px; */
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -174,7 +180,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1336px;
+    /* width: 1336px; */
     height: 400px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -217,6 +223,9 @@
 }
 
 /* third section styles */
+.int{
+    padding: 0 200px;
+}
 .insta {
     color: #272727;
     text-align: center;
@@ -234,33 +243,41 @@
 
 .ig {
     display: flex;
-    gap: 30px;
-    margin-left: 60px;
+    justify-content: space-between;
+    
+    /* margin-left: 60px; */
     margin-bottom: 80px;
 }
 
 .ig-img {
-    width: 280px;
+    width: 24%;
     height: 280px;
 }
 
 /* fourth section styles */
-.latest {
+.latest{
+    padding: 0 200px;
+}
+.latest > div{
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 1100px;
+    /* width: 1100px; */
     height: 300px;
     border-radius: 8px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
     margin-top: 100px;
     background: rgba(229, 84, 115, 0.10);
     background-image: url('../../Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 80px;
+    /* padding-top: 80px; */
     margin-bottom: 100px;
 
+}
+.latest > div > div{
+    width: 600px;
 }
 
 .ltdes {
@@ -295,7 +312,7 @@
 
 /* Footer styles */
 .footer {
-    width: 1336px;
+    /* width: 1336px; */
     height: 250px;
     background: #111010;
     display: flex;
