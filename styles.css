@@ -243,3 +243,51 @@
     width: 280px;
     height: 280px;
 }
+
+/* fourth section styles */
+.latest {
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 130px;
+    margin-top: 100px;
+    background: rgba(229, 84, 115, 0.10);
+    background-image: url('../../Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+
+}
+
+.ltdes {
+    color: #272727;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.lat {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.ip {
+    width: 600px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
