@@ -1,6 +1,27 @@
+/* nav related styles */
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: bisque;
+}
+.nav-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #E55473;
+    font-size: 30px;
+}
+.te{
+    color: purple;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
 /* header related styles */
 .header {
-    width: 1337px;
+    width: 1336px;
     height: 600px;
     background: rgba(229, 84, 115, 0.10);
 }
